@@ -49,7 +49,7 @@ public class Server_Kenan {
                 }
             }
             catch (IOException ie) {
-                System.out.println("Servern has an error!");
+                System.out.println("Error " + ie);
             }
         }
     }
